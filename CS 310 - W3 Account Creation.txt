@@ -1,0 +1,9 @@
+1.)I In bach you can echo (print) and read on the UI between user and script using variables.
+    ex.)    echo "Enter full name (ex: John Doe): "
+            read fullname
+    cmd "read" writes the users response in the "fullname" variable
+
+2.) I took the name input and lowercased it with then added a (-) where the space is in the name. 
+    using cmds:
+        username=${fullname,,}      #lowercases all chars.
+        username=${username// /-}   # replaces the space char with a (-).
